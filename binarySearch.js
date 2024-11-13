@@ -14,8 +14,6 @@ function binarySearch(array, item) {
         const middle = Math.floor((start + end) / 2);
         const guess = array[middle];
 
-        console.log(start, end, middle);
-
         if (guess === item) {
             return middle;
         } else if (guess > item) {
