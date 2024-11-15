@@ -6,7 +6,7 @@ let count = 0;
 
 function binarySearch(array, item) {
     let start = 0;
-    let end = array.length - 1;
+    let end = array.length;
 
     while (start <= end) {
         count += 1;
